@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Build Project",
+            "command": "g++ -Wextra -g3 src/state_reduction.cpp lib/state_reduction.cpp -Ilib -o src/output/state_reduction",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "shell",
+            "label": "Build and Run",
+            "command": "g++ -Wextra -g3 src/state_reduction.cpp lib/state_reduction.cpp -Ilib -o src/output/state_reduction && ./src/output/state_reduction",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": "build"
+        }
+    ]
+}
