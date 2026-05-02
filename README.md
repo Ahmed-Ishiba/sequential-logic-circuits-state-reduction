@@ -11,3 +11,11 @@ clone this repo and cd into the directory and run CMAKE
 then after it finishes compiling  
 
 ``./StateMachineMinimizer``  
+
+## showcase how to use:  
+
+
+
+https://github.com/user-attachments/assets/b1e98a0a-189a-43c0-8fc1-d258841b91a5
+
+
